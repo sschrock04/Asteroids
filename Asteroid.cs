@@ -5,7 +5,7 @@ public class Asteroid : MonoBehaviour
 {
     [SerializeField]
     public float speed = 3f;
-    private Vector2 direction;
+    private Vector3 direction;
     [SerializeField]
     public Sprite[] asteroidSprites;
 
@@ -24,7 +24,7 @@ public class Asteroid : MonoBehaviour
         isOffScreen();
     }
 
-    public void SetDirection(Vector2 newDirection) {
+    public void SetDirection(Vector3 newDirection) {
         direction = newDirection;
     }
 

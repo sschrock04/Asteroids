@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour
 
         speed = Mathf.Clamp(speed, 0f, maxSpeed);
 
-        transform.Translate(Vector2.up * speed * Time.deltaTime);
+        transform.Translate(Vector3.up * speed * Time.deltaTime);
         if (left) {
             transform.Rotate(Vector3.forward * rotate * Time.deltaTime);
         }

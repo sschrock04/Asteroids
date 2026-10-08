@@ -1,0 +1,99 @@
+{
+    "version": 1,
+    "name": "SpaceshipInput",
+    "maps": [
+        {
+            "name": "SpaceshipInput",
+            "id": "e7f2856b-851b-467e-99fa-480e0e4caa5f",
+            "actions": [
+                {
+                    "name": "TurnLeft",
+                    "type": "Value",
+                    "id": "c463c725-68bd-486b-b29e-4966ef5db8a1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "TurnRight",
+                    "type": "Value",
+                    "id": "170e4971-b8d0-4fe8-8bf4-a3dd038abc2e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "5f619ca4-cb53-4756-a75e-4606f0f1e6e0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "MoveForward",
+                    "type": "Button",
+                    "id": "def72477-2fa2-43ef-bc89-54b79589a24f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2cc8aab5-5b14-4174-ac1f-62b48f868be2",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1dc3449b-f0ab-492e-a95f-fa288d1bf1b2",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TurnRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c69996dc-d7ac-4590-a3e4-bdc43a4bb1a6",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "94a8f8ed-4d9e-4abd-86e6-5d350edf2213",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
